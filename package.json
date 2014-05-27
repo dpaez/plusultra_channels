@@ -1,0 +1,30 @@
+{
+  "name": "plusultra_channels",
+  "version": "0.0.0",
+  "description": "An -experimental- server-side real-time \"modality-data-oriented\" transmission module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "keywords": [
+    "real-time",
+    "server-side",
+    "multi-modality"
+  ],
+  "author": "Diego Paez",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.1"
+  },
+  "dependencies": {
+    "ws": "~0.4.29",
+    "socket.io": "git://github.com/LearnBoost/socket.io",
+    "socket.io-client": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-cafe-mocha": "~0.1.8",
+    "grunt": "~0.4.1"
+  }
+}
