@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "ws": "~0.4.29",
-    "socket.io": "git://github.com/LearnBoost/socket.io",
+    "socket.io": "^1.0.4",
     "socket.io-client": "~1.0.0"
   },
   "devDependencies": {
